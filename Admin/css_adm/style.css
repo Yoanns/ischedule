@@ -1,0 +1,134 @@
+html, body { margin:0 auto; padding:5px 0; width: 100%; height: 100%; }
+html { background-color:#F0F0F0; font-family: Arial, sans-serif; color: #000000; font-size: 10pt; text-align: left; text-decoration: none; }
+/* ----- containers ----- */
+#containercentrer { width:1000px; margin:0 auto; padding:0; min-height:100%; text-align:center; overflow:hidden;}
+.container-contenu { width:1000px; clear:both; margin:0 auto; padding:10px; text-align:left; overflow:hidden; 
+	border:1px solid #AAA; background:#DCE5F9; } /* fond bleu ciel */
+#container-contenuGauche { float:left; width:700px; text-align:left; overflow:hidden; }
+#container-contenuDroit { float:right; width:300px; text-align:left; overflow:hidden; }
+
+#monForm input:focus { color:#fff; background-color:#777; }
+#monForm input:active { background-color:#888; }
+/* error message */
+.error {
+  /* supply height to ensure consistent positioning for every browser */
+  height:15px;
+  background-color:#FF6666;
+  border:1px solid #E1E16D;
+  font-size:11px;
+  color:#000;
+  padding:3px 10px;
+  margin-left:-2px;
+ 
+
+  /* CSS3 spicing for mozilla and webkit */
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  -moz-border-radius-bottomleft:0;
+  -moz-border-radius-topleft:0;
+  -webkit-border-bottom-left-radius:0;
+  -webkit-border-top-left-radius:0;
+ 
+  -moz-box-shadow:0 0 6px #ddd;
+  -webkit-box-shadow:0 0 6px #ddd;
+}
+
+/* - textes, tables, ... - */
+h1, h2, h3, h4, h5, h6, p { margin:0; padding:5px; text-align:center; }
+h1 { font-size:1.8em; margin:1px auto; color:#AAAAAA; letter-spacing:0.2em; text-align:center; }
+h2 { font-size:1.4em; margin:5px auto; color:#21409A; letter-spacing:0.1em; text-align:center; font-weight:normal; margin:5px auto;}
+h3 { font-size:1.2em; color:#21409A; text-align:center; letter-spacing:0.1em; font-weight:bold; text-transform:uppercase; }
+h4 { font-size:1em; color:#21409A; text-align:left; font-weight:bold; text-transform:uppercase; }
+p { margin:0; padding:5px; text-align:left; }
+hr { clear:both; width:100%; height:1px; border:1px solid transparent; margin:5px auto; padding:0; outline:none; }
+a { text-decoration:none; color:#21409A; }
+a:hover { text-decoration:underline; color:#21409A; } /* bleu foncé */
+table { width:100%; border-collapse:collapse; border:2px solid #CCCCCC; margin:0 auto; padding:5px; background-color: #FFFFFF; }
+img { border:none;
+  vertical-align:middle;
+}
+a img { border:none; }
+/* ----- formulaire ----- */
+form { margin:0; padding:0; }
+select { float:left; margin:3px 10px 0 0; }
+
+/* validation */
+button { padding:2px; border:1px solid #CCC; font-weight:bold; color:#21409A; background:#E4FFE1 url(../../News/news_ADMIN/img/menu/bt-valider-off.jpg); }	/* vert pale */
+button:hover { background:#B7FFAE url(../../News/news_ADMIN/img/menu/bt-valider-on.jpg); }	/* vert moyen */
+button img { float:left; padding:0; vertical-align:middle; }
+button span { float:left;*/ padding:4px 2px 0 2px; }
+
+#dark{
+	background-color:#333;
+	border:1px solid #000;
+	padding:10px;
+	margin-top:20px;}
+	
+#light{
+	background-color:#FFF;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:20px;}	
+	
+li{ 
+list-style:none;
+	padding-top:10px;
+	padding-bottom:10px;}	
+
+.button, .button:visited {
+	background: #222 url(overlay.png) repeat-x; 
+	display: inline-block; 
+	padding: 5px 10px 6px; 
+	color: #fff;
+	background-color:#FFFFFF; 
+	text-decoration: none;
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	position: relative;
+	cursor: pointer
+}
+ 
+	.button:hover							{ background-color: #111; color: #fff; }
+	.button:active							{ top: 1px; }
+	.small.button, .small.button:visited 			{ font-size: 11px}
+	.button, .button:visited,
+	.medium.button, .medium.button:visited 		{ font-size: 13px; 
+												  font-weight: bold; 
+												  line-height: 1; 
+												  text-shadow: 0 -1px 1px rgba(0,0,0,0.25); 
+												  }
+												  
+	.large.button, .large.button:visited 			{ font-size: 14px; 
+													  padding: 8px 14px 9px; }
+													  
+	.super.button, .super.button:visited 			{ font-size: 34px; 
+													  padding: 8px 14px 9px; }
+	
+	.pink.button, .magenta.button:visited		{ background-color: #e22092; }
+	.pink.button:hover							{ background-color: #c81e82; }
+	.green.button, .green.button:visited		{ background-color: #91bd09; }
+	.green.button:hover						    { background-color: #749a02; }
+	.red.button, .red.button:visited			{ background-color: #e62727; }
+	.red.button:hover							{ background-color: #cf2525; }
+	.orange.button, .orange.button:visited		{ background-color: #ff5c00; }
+	.orange.button:hover						{ background-color: #d45500; }
+	.blue.button, .blue.button:visited		    { background-color: #2981e4; }
+	.blue.button:hover							{ background-color: #2575cf; }
+	.yellow.button, .yellow.button:visited		{ background-color: #ffb515; }
+	.yellow.button:hover						{ background-color: #fc9200; }
+	
+
+
+/* retour */
+.lienretour { padding:5px; border:1px solid #CCC; font-weight:bold; color:#21409A; background:#E4FFE1 url(../../News/news_ADMIN/img/menu/bt-valider-off.jpg); }	/* vert pale */
+.lienretour:hover { text-decoration:none; background:#B7FFAE url(../../News/news_ADMIN/img/menu/bt-valider-on.jpg); }
+/* infos de validation */
+
+.listeselection-gauche { float:left; padding:4px; border:1px solid #CCC; color:#FFF; background:#87080C url(../../News/news_ADMIN/img/menu/bt-fond-form.jpg); } /* rouge fonce */
+.listeselection-droite { float:right; }
+
+.messageerreur { margin:0 auto; padding:3px; width:100%; text-align:center; background-color:MistyRose; color: #F2462E; font-weight: Bold; }
